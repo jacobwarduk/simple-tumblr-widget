@@ -15,10 +15,10 @@
             
             // Constructor setting the attributes and building the widget
             function __construct($user, $number, $width) {
-                $this->user = $user;
-                $this->number = $number;
-                $this->width = $width;
-                $this->buildWidget();
+                $this->user = $user;    // Username of the Tumblr account
+                $this->number = $number;    // Number of images to display
+                $this->width = $width;  // Width of the table (number of columns) to display
+                $this->buildWidget();   // Building the widget!
             }
             
             // Method to build the widget
